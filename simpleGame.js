@@ -22,7 +22,6 @@ function playSingleRound(playerSelection, computerSelection) {
             } else {
                 roundResultMessage = `You won the Round! ${playerSelection} beats ${computerSelection}!`;
                 gamesWonByPlayer++;
-                console.log(`You won the Round! ${playerSelection} beats ${computerSelection}!`);
             }
         } else if (playerSelection === 'paper') {
             if (computerSelection === 'scissors') {
