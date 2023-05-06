@@ -10,7 +10,7 @@ function playSingleRound(playerSelection, computerSelection) {
     let round = 1;
 
     while (round > 0) {
-        playerSelection = prompt('Make your choice! Type Rock, Paper or Scissors.').toLowerCase();
+        playerSelection = prompt('Make your choice! Type Rock, Paper or Scissors.').toLowerCase().trim();
         computerSelection = computerPlay();
 
         if (playerSelection === computerSelection) {
